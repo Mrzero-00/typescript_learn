@@ -10,10 +10,6 @@ var localdata = /** @class */ (function () {
         var value = localStorage.getItem(this.key);
         return value ? JSON.parse(value) : null;
     };
-    localdata.prototype.getAll = function () {
-        var value = localStorage.getItem(this.key);
-        return value ? JSON.parse(value) : null;
-    };
     return localdata;
 }());
 var userLocalData = new localdata("dsdsd");
