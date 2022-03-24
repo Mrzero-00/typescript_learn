@@ -14,8 +14,8 @@ class localdata<T>{
     }
 }
 
-interface UserData {
-    name:string;
+interface UserData<T>{
+    name:T;
 }
 
 interface UserAge {
@@ -23,7 +23,7 @@ interface UserAge {
 }
 
 
-const userLocalData = new localdata<UserData>("dsdsd");
+const userLocalData = new localdata<UserData<string>>("dsdsd");
 const userAgeLocalData = new localdata<UserAge>("dsdsd");
 
 userLocalData.add({name:"john"});
