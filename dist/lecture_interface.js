@@ -14,12 +14,18 @@ var user1 = {
     name: "user1",
     age: 0,
     gender: "man",
-    adress: "dkdkdk"
+    adress: "dkdkdk",
+    say: function (say) {
+        throw new Error("Function not implemented.");
+    }
 };
 var user2 = {
     name: "user1",
     age: 0,
-    gender: "man"
+    gender: "man",
+    say: function (say) {
+        throw new Error("Function not implemented.");
+    }
 };
 // 위 처럼 adress는 옵셔널한 값으로 정의됨
 //# sourceMappingURL=lecture_interface.js.map

@@ -47,6 +47,4 @@ var eventCart = /** @class */ (function (_super) {
 }(cart));
 var myCart = new cart({ name: "john" });
 var newCart = new eventCart({ name: "jays" });
-newCart.
-;
 //# sourceMappingURL=lecture_class.js.map

@@ -36,16 +36,22 @@ interface jobInterface{
 
 
 const user1:person = {
-    name:"user1",
-    age:0,
-    gender:"man",
-    adress:"dkdkdk"
+    name: "user1",
+    age: 0,
+    gender: "man",
+    adress: "dkdkdk",
+    say: function (say: string): void {
+        throw new Error("Function not implemented.");
+    }
 }
 
 const user2:person = {
-    name:"user1",
-    age:0,
-    gender:"man"
+    name: "user1",
+    age: 0,
+    gender: "man",
+    say: function (say: string): void {
+        throw new Error("Function not implemented.");
+    }
 }
 
 // 위 처럼 adress는 옵셔널한 값으로 정의됨

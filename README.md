@@ -21,3 +21,4 @@
 - class의 interface를 상속하는 방법(implements) 및 class 의 class 상속(extends)를 통해 클래스 지정하는방법 알아봄.
 - 제너릭은 함수의 props의 타입이 정확하게 정해지지 않은 상태에서 그 props의 타입을 지정해주는 기능이다.
 - any와 다른점은 any는 props자체가 any이기 때문에 각 타입의 해당하는 기능(number의 메소드 등등)을 사용함에 있어 제약이있다.
+- 제너릭은 함수뿐만 아니라 class에서도 사용이 가능함

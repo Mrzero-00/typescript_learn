@@ -53,5 +53,4 @@ class eventCart extends cart{
 
 const myCart = new cart({name:"john"});
 const newCart = new eventCart({name:"jays"});
-newCart.
 
