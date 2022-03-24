@@ -18,3 +18,4 @@
 #### 2022.03.24
 
 - enum은 상수들을의 집합을 나타내며, interface처럼 프롭스의 타입을 지정해 주어 자동완성을 할 수 있게도 함.
+- class의 interface를 상속하는 방법(implements) 및 class 의 class 상속(extends)를 통해 클래스 지정하는방법 알아봄.
